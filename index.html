@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Click Click</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<style>
+.topnav {
+  overflow: hidden;
+  background-color: #ff0000;
+}
+
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #cc0000;
+  color: white;
+}
+
+</style>
+<div class="topnav">
+  <a href="/">Click Click Game</a>
+  <a href="/leaderboard.html">Click Click Leaderboard</a>
+  <a href="/rules.html">Click Click Rules</a>
+</div>
+    <h1>Click Click</h1>
+    <div>High Score: <span id="cookie"></span></div>
+    <div>Time left: <span id="timer"></span></div>
+    <div>Score: <span id="score"></span></div>
+    <div id="myCanvas">
+      <p class="button" onclick="scorechange()">Click</p>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
